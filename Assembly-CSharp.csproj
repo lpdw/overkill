@@ -46,13 +46,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
      <Compile Include="Assets\_scene\Scripts\ButtonJoinServer.cs" />
+=======
+     <Compile Include="Assets\HomeScreenScript.cs" />
+>>>>>>> fee88fe52b34499f8a7f3702cf4adeacbbeeaa74
      <Compile Include="Assets\_scene\Scripts\Connexion.cs" />
      <Compile Include="Assets\_scene\Scripts\GameManager.cs" />
      <Compile Include="Assets\_scene\Scripts\Gun\Revolver.cs" />
      <Compile Include="Assets\_scene\Scripts\HomeButtonChoices.cs" />
      <Compile Include="Assets\_scene\Scripts\IGun.cs" />
      <Compile Include="Assets\_scene\Scripts\Player.cs" />
+     <Compile Include="Assets\_scene\Scripts\createListServer.cs" />
+     <Compile Include="Assets\_scene\Scripts\popup.cs" />
      <Compile Include="Assets\_scene\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\_scene\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
      <Compile Include="Assets\_scene\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
