@@ -46,11 +46,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\HomeScreenScript.cs" />
      <Compile Include="Assets\_scene\Scripts\Connexion.cs" />
      <Compile Include="Assets\_scene\Scripts\GameManager.cs" />
      <Compile Include="Assets\_scene\Scripts\Gun\Revolver.cs" />
      <Compile Include="Assets\_scene\Scripts\IGun.cs" />
      <Compile Include="Assets\_scene\Scripts\Player.cs" />
+     <Compile Include="Assets\_scene\Scripts\createListServer.cs" />
+     <Compile Include="Assets\_scene\Scripts\popup.cs" />
      <Compile Include="Assets\_scene\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\_scene\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
      <Compile Include="Assets\_scene\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />

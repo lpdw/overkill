@@ -89,11 +89,14 @@
 -define:ENABLE_NATIVE_ARRAY_CHECKS
 -define:UNITY_TEAM_LICENSE
 -define:CROSS_PLATFORM_INPUT
+'Assets/HomeScreenScript.cs'
 'Assets/_scene/Scripts/Connexion.cs'
 'Assets/_scene/Scripts/GameManager.cs'
 'Assets/_scene/Scripts/Gun/Revolver.cs'
 'Assets/_scene/Scripts/IGun.cs'
 'Assets/_scene/Scripts/Player.cs'
+'Assets/_scene/Scripts/createListServer.cs'
+'Assets/_scene/Scripts/popup.cs'
 'Assets/_scene/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs'
 'Assets/_scene/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs'
 'Assets/_scene/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs'
