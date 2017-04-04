@@ -46,11 +46,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-     <Compile Include="Assets\_scene\Scripts\ButtonJoinServer.cs" />
-=======
      <Compile Include="Assets\HomeScreenScript.cs" />
->>>>>>> fee88fe52b34499f8a7f3702cf4adeacbbeeaa74
+     <Compile Include="Assets\_scene\Scripts\ButtonJoinServer.cs" />
      <Compile Include="Assets\_scene\Scripts\Connexion.cs" />
      <Compile Include="Assets\_scene\Scripts\GameManager.cs" />
      <Compile Include="Assets\_scene\Scripts\Gun\Revolver.cs" />
