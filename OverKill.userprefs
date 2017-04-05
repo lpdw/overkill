@@ -1,5 +1,6 @@
 ﻿<Properties RefactoringSettings.EnableRefactorings="True" StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Cameras/Scripts/FreeLookCam.cs">
     <Files>
       <File FileName="Assets/_scene/Scripts/Connexion.cs" Line="34" Column="4" />
@@ -9,6 +10,9 @@
       <File FileName="Assets/Standard Assets/Cameras/Scripts/FreeLookCam.cs" Line="3" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+=======
+  <MonoDevelop.Ide.Workbench />
+>>>>>>> 26f31bb0f5bd27d122f622f2244dad284caa1421
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
