@@ -5,13 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class HomeButtonChoices : MonoBehaviour {
 	public Canvas createServerCanvas;
-	//public Canvas joinServerCanvas;
+	public Canvas joinServerCanvas;
 	// Use this for initialization
 	void Start () {
 		createServerCanvas = GameObject.Find("CanvasCreateServer").GetComponent<Canvas>();
-		//joinServerCanvas = GameObject.Find("CanvasJoinServer").GetComponent<Canvas>();
+		joinServerCanvas = GameObject.Find("CanvasJoinServer").GetComponent<Canvas>();
 		createServerCanvas.enabled = false;
-		//joinServerCanvas.enabled = false;
+		joinServerCanvas.enabled = false;
 	}
 	
 	// Update is called once per frame
@@ -31,11 +31,11 @@ public class HomeButtonChoices : MonoBehaviour {
 	}
 
 	//OnClick load and enable JoinServer Scene and Canvas 
-/*	public onClickJoinserver()
+	public void onClickJoinserver()
 	{
-		//Scene joinServerScene = SceneManager.GetSceneByName("joinServerScreen");
+		Scene joinServerScene = SceneManager.GetSceneByName("joinServerScreen");
 		SceneManager.LoadScene("joinServerScreen");
 		joinServerCanvas.enabled = true;
-		print("joinServerScreen Loaded !"):
-	}*/
+		print("joinServerScreen Loaded !");
+	}
 }
