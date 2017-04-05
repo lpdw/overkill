@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9B567787-016A-BBDB-1271-74224712FA81}</ProjectGuid>
+    <ProjectGuid>{AA5C74C7-826A-38E7-5339-6B34D2E63D27}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,11 +46,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-=======
-     <Compile Include="Assets\HomeScreenScript.cs" />
-     <Compile Include="Assets\_scene\Scripts\ButtonJoinServer.cs" />
->>>>>>> aa8979bfce4f97be9ea745b0f492f541da81fc9d
      <Compile Include="Assets\_scene\Scripts\Connexion.cs" />
      <Compile Include="Assets\_scene\Scripts\GameManager.cs" />
      <Compile Include="Assets\_scene\Scripts\Gun\Revolver.cs" />
@@ -99,6 +94,7 @@
      <Compile Include="Assets\_scene\Standard Assets\Utility\WaypointCircuit.cs" />
      <Compile Include="Assets\_scene\Standard Assets\Utility\WaypointProgressTracker.cs" />
      <None Include="Assets\_scene\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\store\MentalDreamsAssets\SoldierSoundsPack\ReadMe!.txt" />
      <None Include="Assets\_scene\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
