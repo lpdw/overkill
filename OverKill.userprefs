@@ -1,15 +1,6 @@
 ﻿<Properties RefactoringSettings.EnableRefactorings="True" StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_scene/Scripts/HomeButtonChoices.cs">
-    <Files>
-<<<<<<< HEAD
-      <File FileName="Assets/_scene/Scripts/HomeButtonChoices.cs" Line="11" Column="1" />
-=======
-      <File FileName="Assets/_scene/Scripts/HomeButtonChoices.cs" Line="36" Column="3" />
-      <File FileName="Assets/_scene/Scripts/Gun/Revolver.cs" Line="9" Column="1" />
->>>>>>> 943f510c5323c24b0d22eb46a56e8147319a3a5c
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

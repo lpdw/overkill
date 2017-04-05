@@ -46,6 +46,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\_scene\CritiasTreeSystem\Code\RowCol.cs" />
+     <Compile Include="Assets\_scene\CritiasTreeSystem\Code\TreeColliders.cs" />
+     <Compile Include="Assets\_scene\CritiasTreeSystem\Code\TreeSystem.cs" />
+     <Compile Include="Assets\_scene\CritiasTreeSystem\Code\Treeifier.cs" />
+     <Compile Include="Assets\_scene\CritiasTreeSystem\Code\Utils\TUtils.cs" />
+     <Compile Include="Assets\_scene\CritiasTreeSystem\Code\Utils\TerrainUtils.cs" />
+     <Compile Include="Assets\_scene\GE Common Assets\GE Orbit Camera\Scripts\GE_OrbitCamera.cs" />
+     <Compile Include="Assets\_scene\GE Common Assets\GE Orbit Camera\Scripts\GE_OrbitCameraUI.cs" />
+     <Compile Include="Assets\_scene\GE Common Assets\GE Toggle Full Screen\Scripts\GE_ToggleFullScreenUI.cs" />
+     <Compile Include="Assets\_scene\GE Common Assets\Scripts\GE_UIResponder.cs" />
+     <Compile Include="Assets\_scene\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo00.cs" />
+     <Compile Include="Assets\_scene\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo01.cs" />
+     <Compile Include="Assets\_scene\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo02.cs" />
+     <Compile Include="Assets\_scene\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo03.cs" />
+     <Compile Include="Assets\_scene\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo04.cs" />
+     <Compile Include="Assets\_scene\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo05.cs" />
+     <Compile Include="Assets\_scene\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo06.cs" />
+     <Compile Include="Assets\_scene\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo07.cs" />
+     <Compile Include="Assets\_scene\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo08.cs" />
+     <Compile Include="Assets\_scene\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_DemoPlaySound.cs" />
+     <Compile Include="Assets\_scene\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_OpenOtherScene.cs" />
+     <Compile Include="Assets\_scene\GUI Animator\GUI Animator FREE\Demo Basic (CSharp)\Scripts\GUIAnimatorFREEDemo.cs" />
      <Compile Include="Assets\_scene\Scripts\Connexion.cs" />
      <Compile Include="Assets\_scene\Scripts\GameManager.cs" />
      <Compile Include="Assets\_scene\Scripts\Gun\Revolver.cs" />
@@ -54,48 +76,20 @@
      <Compile Include="Assets\_scene\Scripts\Player.cs" />
      <Compile Include="Assets\_scene\Scripts\createListServer.cs" />
      <Compile Include="Assets\_scene\Scripts\popup.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Utility\ActivateTrigger.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Utility\AlphaButtonClickMask.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Utility\AutoMoveAndRotate.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Utility\CameraRefocus.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Utility\CurveControlledBob.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Utility\DragRigidbody.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Utility\DynamicShadowSettings.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Utility\EventSystemChecker.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Utility\FOVKick.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Utility\FPSCounter.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Utility\FollowTarget.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Utility\ForcedReset.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Utility\LerpControlledBob.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Utility\ObjectResetter.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Utility\PlatformSpecificContent.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Utility\SimpleActivatorMenu.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Utility\SimpleMouseRotator.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Utility\SmoothFollow.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Utility\TimedObjectActivator.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Utility\TimedObjectDestructor.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Utility\WaypointCircuit.cs" />
-     <Compile Include="Assets\_scene\Standard Assets\Utility\WaypointProgressTracker.cs" />
-     <None Include="Assets\_scene\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <Compile Include="Assets\race-track-lake\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
+     <None Include="Assets\_scene\CritiasTreeSystem\Shader\SpeedTree_Master.shader" />
+     <None Include="Assets\_scene\CritiasTreeSystem\Shader\SpeedTreeBillboard_Master.shader" />
+     <None Include="Assets\race-track-lake\readmore.txt" />
+     <None Include="Assets\_scene\CritiasTreeSystem\Shader\SpeedTreeBillboard_Batch.shader" />
+     <None Include="Assets\_scene\CritiasTreeSystem\Shader\SpeedTree_Include\SpeedTreeBillboardCommon_Master.cginc" />
+     <None Include="Assets\_scene\CritiasTreeSystem\Shader\SpeedTree_Include\SpeedTreeWind_Master.cginc" />
+     <None Include="Assets\_scene\CritiasTreeSystem\Shader\SpeedTree_Include\SpeedTreeCommon_Master.cginc" />
+     <None Include="Assets\race-track-lake\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\store\MentalDreamsAssets\SoldierSoundsPack\ReadMe!.txt" />
-     <None Include="Assets\_scene\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\_scene\CritiasTreeSystem\Shader\SpeedTree_Include\SpeedTreeVertex_Master.cginc" />
+     <None Include="Assets\_scene\GUI Animator\GUI Animator FREE\Readme.txt" />
+     <None Include="Assets\_scene\GE Common Assets\Readme.txt" />
+     <None Include="Assets\_scene\GUI Animator\GUI Animator FREE\!How to.txt" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
@@ -116,6 +110,12 @@
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="GETween">
+ <HintPath>/Users/mamihery/OverKill/Assets/_scene/GUI Animator/Common/Plugins/GETween.dll</HintPath>
+ </Reference>
+ <Reference Include="GUIAnimatorFREE">
+ <HintPath>/Users/mamihery/OverKill/Assets/_scene/GUI Animator/GUI Animator FREE/Plugins/GUIAnimatorFREE.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
