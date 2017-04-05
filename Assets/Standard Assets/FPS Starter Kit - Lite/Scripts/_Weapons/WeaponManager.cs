@@ -32,7 +32,8 @@ public class WeaponManager : MonoBehaviour
 
     void Start()
     {
-		
+		//Cursor.SetCursor(lock);
+		Cursor.lockState = CursorLockMode.Locked; 
 		Null_Weapons();
 		Null_Weapons_mode ();
         pattexture.SetActive(true);  //
