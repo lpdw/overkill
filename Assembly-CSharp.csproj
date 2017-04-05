@@ -46,7 +46,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
      <Compile Include="Assets\_scene\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\_scene\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
      <Compile Include="Assets\_scene\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
@@ -56,7 +55,6 @@
      <Compile Include="Assets\_scene\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
      <Compile Include="Assets\_scene\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
      <Compile Include="Assets\_scene\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
-=======
      <Compile Include="Assets\_scene\CritiasTreeSystem\Code\RowCol.cs" />
      <Compile Include="Assets\_scene\CritiasTreeSystem\Code\TreeColliders.cs" />
      <Compile Include="Assets\_scene\CritiasTreeSystem\Code\TreeSystem.cs" />
@@ -79,7 +77,6 @@
      <Compile Include="Assets\_scene\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_DemoPlaySound.cs" />
      <Compile Include="Assets\_scene\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_OpenOtherScene.cs" />
      <Compile Include="Assets\_scene\GUI Animator\GUI Animator FREE\Demo Basic (CSharp)\Scripts\GUIAnimatorFREEDemo.cs" />
->>>>>>> 26f31bb0f5bd27d122f622f2244dad284caa1421
      <Compile Include="Assets\_scene\Scripts\Connexion.cs" />
      <Compile Include="Assets\_scene\Scripts\GameManager.cs" />
      <Compile Include="Assets\_scene\Scripts\Gamer.cs" />
@@ -90,38 +87,34 @@
      <Compile Include="Assets\_scene\Scripts\Score.cs" />
      <Compile Include="Assets\_scene\Scripts\createListServer.cs" />
      <Compile Include="Assets\_scene\Scripts\popup.cs" />
-<<<<<<< HEAD
+     <Compile Include="Assets\race-track-lake\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
      <None Include="Assets\Standard Assets\FPS Starter Kit - Lite\Textures &amp; Materials\_Font\3dText.shader" />
+     <None Include="Assets\_scene\CritiasTreeSystem\Shader\SpeedTree_Master.shader" />
      <None Include="Assets\Standard Assets\FPS Starter Kit - Lite\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Standard Assets\FPS Starter Kit - Lite\Textures &amp; Materials\_Explosion textures\Exposion shader.shader" />
-     <None Include="Assets\Standard Assets\FPS Starter Kit - Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
-     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\store\MentalDreamsAssets\SoldierSoundsPack\ReadMe!.txt" />
-     <None Include="Assets\Standard Assets\FPS Starter Kit - Lite\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
-     <None Include="Assets\_scene\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
-     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
-     <None Include="Assets\_scene\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
-     <None Include="Assets\_scene\Characters\RollerBall\RollerBallGuidelines.txt" />
-     <None Include="Assets\Standard Assets\FPS Starter Kit - Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
- <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>/Users/IntelliJ/ProjectsUnity/overkill/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
- </Reference>
-=======
-     <Compile Include="Assets\race-track-lake\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
-     <None Include="Assets\_scene\CritiasTreeSystem\Shader\SpeedTree_Master.shader" />
      <None Include="Assets\_scene\CritiasTreeSystem\Shader\SpeedTreeBillboard_Master.shader" />
      <None Include="Assets\race-track-lake\readmore.txt" />
      <None Include="Assets\_scene\CritiasTreeSystem\Shader\SpeedTreeBillboard_Batch.shader" />
      <None Include="Assets\_scene\CritiasTreeSystem\Shader\SpeedTree_Include\SpeedTreeBillboardCommon_Master.cginc" />
      <None Include="Assets\_scene\CritiasTreeSystem\Shader\SpeedTree_Include\SpeedTreeWind_Master.cginc" />
      <None Include="Assets\_scene\CritiasTreeSystem\Shader\SpeedTree_Include\SpeedTreeCommon_Master.cginc" />
+     <None Include="Assets\Standard Assets\FPS Starter Kit - Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
      <None Include="Assets\race-track-lake\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\store\MentalDreamsAssets\SoldierSoundsPack\ReadMe!.txt" />
      <None Include="Assets\_scene\CritiasTreeSystem\Shader\SpeedTree_Include\SpeedTreeVertex_Master.cginc" />
+     <None Include="Assets\Standard Assets\FPS Starter Kit - Lite\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
      <None Include="Assets\_scene\GUI Animator\GUI Animator FREE\Readme.txt" />
+     <None Include="Assets\_scene\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
      <None Include="Assets\_scene\GE Common Assets\Readme.txt" />
      <None Include="Assets\_scene\GUI Animator\GUI Animator FREE\!How to.txt" />
->>>>>>> 26f31bb0f5bd27d122f622f2244dad284caa1421
+     <None Include="Assets\_scene\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\_scene\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\Standard Assets\FPS Starter Kit - Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>/Users/IntelliJ/ProjectsUnity/overkill/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
@@ -143,19 +136,16 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
-<<<<<<< HEAD
+ <Reference Include="GETween">
+ <HintPath>/Users/IntelliJ/ProjectsUnity/overkill/Assets/_scene/GUI Animator/Common/Plugins/GETween.dll</HintPath>
+ </Reference>
+ <Reference Include="GUIAnimatorFREE">
+ <HintPath>/Users/IntelliJ/ProjectsUnity/overkill/Assets/_scene/GUI Animator/GUI Animator FREE/Plugins/GUIAnimatorFREE.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{17B28096-807D-833E-3A1D-4E5BE238FB15}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
-=======
- <Reference Include="GETween">
- <HintPath>/Users/mamihery/OverKill/Assets/_scene/GUI Animator/Common/Plugins/GETween.dll</HintPath>
- </Reference>
- <Reference Include="GUIAnimatorFREE">
- <HintPath>/Users/mamihery/OverKill/Assets/_scene/GUI Animator/GUI Animator FREE/Plugins/GUIAnimatorFREE.dll</HintPath>
- </Reference>
->>>>>>> 26f31bb0f5bd27d122f622f2244dad284caa1421
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
