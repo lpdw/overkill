@@ -48,28 +48,28 @@
   <ItemGroup>
      <Compile Include="Assets\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
      <None Include="Assets\Standard Assets\FPS Starter Kit - Lite\Textures &amp; Materials\_Font\3dText.shader" />
-     <None Include="Assets\_scene\CritiasTreeSystem\Shader\SpeedTree_Master.shader" />
+     <None Include="Assets\store\CritiasTreeSystem\Shader\SpeedTree_Master.shader" />
      <None Include="Assets\Standard Assets\FPS Starter Kit - Lite\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Standard Assets\FPS Starter Kit - Lite\Textures &amp; Materials\_Explosion textures\Exposion shader.shader" />
-     <None Include="Assets\_scene\CritiasTreeSystem\Shader\SpeedTreeBillboard_Master.shader" />
-     <None Include="Assets\race-track-lake\readmore.txt" />
-     <None Include="Assets\_scene\CritiasTreeSystem\Shader\SpeedTreeBillboard_Batch.shader" />
-     <None Include="Assets\_scene\CritiasTreeSystem\Shader\SpeedTree_Include\SpeedTreeBillboardCommon_Master.cginc" />
-     <None Include="Assets\_scene\CritiasTreeSystem\Shader\SpeedTree_Include\SpeedTreeWind_Master.cginc" />
-     <None Include="Assets\_scene\CritiasTreeSystem\Shader\SpeedTree_Include\SpeedTreeCommon_Master.cginc" />
+     <None Include="Assets\store\CritiasTreeSystem\Shader\SpeedTreeBillboard_Master.shader" />
+     <None Include="Assets\store\race-track-lake\readmore.txt" />
+     <None Include="Assets\store\CritiasTreeSystem\Shader\SpeedTreeBillboard_Batch.shader" />
+     <None Include="Assets\store\CritiasTreeSystem\Shader\SpeedTree_Include\SpeedTreeBillboardCommon_Master.cginc" />
+     <None Include="Assets\store\CritiasTreeSystem\Shader\SpeedTree_Include\SpeedTreeWind_Master.cginc" />
+     <None Include="Assets\store\CritiasTreeSystem\Shader\SpeedTree_Include\SpeedTreeCommon_Master.cginc" />
      <None Include="Assets\Standard Assets\FPS Starter Kit - Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
-     <None Include="Assets\race-track-lake\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\store\race-track-lake\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\store\MentalDreamsAssets\SoldierSoundsPack\ReadMe!.txt" />
-     <None Include="Assets\_scene\CritiasTreeSystem\Shader\SpeedTree_Include\SpeedTreeVertex_Master.cginc" />
+     <None Include="Assets\store\CritiasTreeSystem\Shader\SpeedTree_Include\SpeedTreeVertex_Master.cginc" />
      <None Include="Assets\Standard Assets\FPS Starter Kit - Lite\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
-     <None Include="Assets\_scene\GUI Animator\GUI Animator FREE\Readme.txt" />
-     <None Include="Assets\_scene\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\store\GUI Animator\GUI Animator FREE\Readme.txt" />
+     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
-     <None Include="Assets\_scene\GE Common Assets\Readme.txt" />
-     <None Include="Assets\_scene\GUI Animator\GUI Animator FREE\!How to.txt" />
-     <None Include="Assets\_scene\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
-     <None Include="Assets\_scene\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\store\GE Common Assets\Readme.txt" />
+     <None Include="Assets\store\GUI Animator\GUI Animator FREE\!How to.txt" />
+     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\Standard Assets\FPS Starter Kit - Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>/Users/IntelliJ/ProjectsUnity/overkill/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
@@ -129,10 +129,10 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="GETween">
- <HintPath>/Users/IntelliJ/ProjectsUnity/overkill/Assets/_scene/GUI Animator/Common/Plugins/GETween.dll</HintPath>
+ <HintPath>/Users/IntelliJ/ProjectsUnity/overkill/Assets/store/GUI Animator/Common/Plugins/GETween.dll</HintPath>
  </Reference>
  <Reference Include="GUIAnimatorFREE">
- <HintPath>/Users/IntelliJ/ProjectsUnity/overkill/Assets/_scene/GUI Animator/GUI Animator FREE/Plugins/GUIAnimatorFREE.dll</HintPath>
+ <HintPath>/Users/IntelliJ/ProjectsUnity/overkill/Assets/store/GUI Animator/GUI Animator FREE/Plugins/GUIAnimatorFREE.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
