@@ -1,14 +1,16 @@
 ﻿<Properties RefactoringSettings.EnableRefactorings="True" StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/FPS Starter Kit - Lite/Scripts/_Weapons/WeaponManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_scene/Scripts/PlayerNetworkManager.js">
     <Files>
-      <File FileName="Assets/_scene/Scripts/Score.cs" Line="17" Column="24" />
+      <File FileName="Assets/PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets/_scene/Scripts/Score.cs" Line="1" Column="1" />
       <File FileName="Assets/_scene/Scripts/Connexion.cs" Line="1" Column="1" />
       <File FileName="Assets/_scene/Scripts/HomeButtonChoices.cs" Line="1" Column="1" />
       <File FileName="Assets/_scene/Scripts/Gun/Revolver.cs" Line="1" Column="1" />
       <File FileName="Assets/_scene/Scripts/Gamer.cs" Line="1" Column="1" />
-      <File FileName="Assets/Standard Assets/Cameras/Scripts/FreeLookCam.cs" Line="10" Column="21" />
+      <File FileName="Assets/Standard Assets/Cameras/Scripts/FreeLookCam.cs" Line="1" Column="1" />
       <File FileName="Assets/Standard Assets/FPS Starter Kit - Lite/Scripts/_Weapons/WeaponManager.cs" Line="40" Column="38" />
+      <File FileName="Assets/_scene/Scripts/PlayerNetworkManager.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
