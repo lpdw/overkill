@@ -58,22 +58,9 @@
      <Compile Include="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
      <Compile Include="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
-     <Compile Include="Assets\Standard Assets\Characters\RollerBall\Scripts\Ball.cs" />
-     <Compile Include="Assets\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs" />
      <Compile Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
      <Compile Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
      <Compile Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
-     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
-     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
-     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
-     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
-     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
-     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
-     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
-     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
-     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
-     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
-     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
      <Compile Include="Assets\Standard Assets\FPS Starter Kit - Lite\Scripts\ArenaControl.cs" />
      <Compile Include="Assets\Standard Assets\FPS Starter Kit - Lite\Scripts\Crosshair.cs" />
      <Compile Include="Assets\Standard Assets\FPS Starter Kit - Lite\Scripts\Health.cs" />
@@ -119,29 +106,28 @@
      <Compile Include="Assets\Standard Assets\Utility\TimedObjectDestructor.cs" />
      <Compile Include="Assets\Standard Assets\Utility\WaypointCircuit.cs" />
      <Compile Include="Assets\Standard Assets\Utility\WaypointProgressTracker.cs" />
+     <Compile Include="Assets\Standard Assets\_SimpleMultiplayerKit\Scripts\CHandler.cs" />
+     <Compile Include="Assets\Standard Assets\_SimpleMultiplayerKit\Scripts\CamHandler.cs" />
+     <Compile Include="Assets\Standard Assets\_SimpleMultiplayerKit\Scripts\DisplayNames.cs" />
+     <Compile Include="Assets\Standard Assets\_SimpleMultiplayerKit\Scripts\GameManager\ChatSystem.cs" />
+     <Compile Include="Assets\Standard Assets\_SimpleMultiplayerKit\Scripts\GameManager\GameManager.cs" />
+     <Compile Include="Assets\Standard Assets\_SimpleMultiplayerKit\Scripts\GameManager\NetworkManager.cs" />
+     <Compile Include="Assets\Standard Assets\_SimpleMultiplayerKit\Scripts\GameManager\QualityManager.cs" />
+     <Compile Include="Assets\Standard Assets\_SimpleMultiplayerKit\Scripts\GameManager\SettingsManager.cs" />
+     <Compile Include="Assets\Standard Assets\_SimpleMultiplayerKit\Scripts\PlayerInput.cs" />
+     <Compile Include="Assets\Standard Assets\_SimpleMultiplayerKit\Scripts\PlayerSync.cs" />
+     <Compile Include="Assets\Standard Assets\_SimpleMultiplayerKit\Scripts\ServerButtonHandler.cs" />
+     <Compile Include="Assets\Standard Assets\_SimpleMultiplayerKit\Scripts\_Loader.cs" />
      <None Include="Assets\Standard Assets\FPS Starter Kit - Lite\Textures &amp; Materials\_Font\3dText.shader" />
-     <None Include="Assets\store\CritiasTreeSystem\Shader\SpeedTree_Master.shader" />
      <None Include="Assets\Standard Assets\FPS Starter Kit - Lite\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Standard Assets\FPS Starter Kit - Lite\Textures &amp; Materials\_Explosion textures\Exposion shader.shader" />
-     <None Include="Assets\store\CritiasTreeSystem\Shader\SpeedTreeBillboard_Master.shader" />
-     <None Include="Assets\store\race-track-lake\readmore.txt" />
-     <None Include="Assets\store\CritiasTreeSystem\Shader\SpeedTreeBillboard_Batch.shader" />
-     <None Include="Assets\store\CritiasTreeSystem\Shader\SpeedTree_Include\SpeedTreeBillboardCommon_Master.cginc" />
-     <None Include="Assets\store\CritiasTreeSystem\Shader\SpeedTree_Include\SpeedTreeWind_Master.cginc" />
-     <None Include="Assets\store\CritiasTreeSystem\Shader\SpeedTree_Include\SpeedTreeCommon_Master.cginc" />
+     <None Include="Assets\Standard Assets\_SimpleMultiplayerKit\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\_SimpleMultiplayerKit\README.txt" />
      <None Include="Assets\Standard Assets\FPS Starter Kit - Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
-     <None Include="Assets\store\race-track-lake\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
-     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\store\MentalDreamsAssets\SoldierSoundsPack\ReadMe!.txt" />
-     <None Include="Assets\store\CritiasTreeSystem\Shader\SpeedTree_Include\SpeedTreeVertex_Master.cginc" />
      <None Include="Assets\Standard Assets\FPS Starter Kit - Lite\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
-     <None Include="Assets\store\GUI Animator\GUI Animator FREE\Readme.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
-     <None Include="Assets\store\GE Common Assets\Readme.txt" />
-     <None Include="Assets\store\GUI Animator\GUI Animator FREE\!How to.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
-     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\Standard Assets\FPS Starter Kit - Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
@@ -163,12 +149,6 @@
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
- </Reference>
- <Reference Include="GETween">
- <HintPath>/Users/IntelliJ/ProjectsUnity/overkill/Assets/store/GUI Animator/Common/Plugins/GETween.dll</HintPath>
- </Reference>
- <Reference Include="GUIAnimatorFREE">
- <HintPath>/Users/IntelliJ/ProjectsUnity/overkill/Assets/store/GUI Animator/GUI Animator FREE/Plugins/GUIAnimatorFREE.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
