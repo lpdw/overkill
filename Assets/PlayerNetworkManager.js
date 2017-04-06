@@ -1,4 +1,4 @@
-﻿#pragma strict
+﻿/*#pragma strict
 import UnityEngine.Networking;
 //we create a playernetwork class the extents the network class
 public class PlayerNetworkManagerFP extends Networking.NetworkBehaviour{
@@ -20,4 +20,4 @@ function Start(){
  rigidBodyController.isMine=false;
  }
  }
-}
+}*/
