@@ -151,8 +151,9 @@ public class NetworkManager : MonoBehaviour {
 	}
 	
 	void SpawnPlayer()	{
-		// Spawning the player. By using Network.Instantiate instead of just Instantiate, everyone on the server will have the player object instantiated (Though control should be reserved only to the owner of the NetworkView)
-		int randomSpawn = Random.Range(0, spawnZones.Length-1);	// We're choosing random spawn points from an array just for convenience here - you can handle this how you like, just keep in mind: Network.Instantiate creates the object on everyone's end
+		// Spawning the player. By using Network.Instantiate instead of just Instantiate,
+		// everyone on the server will have the player object instantiated (Though control should be reserved only to the owner of the NetworkView)
+		int randomSpawn = Random.Range(0, spawnZones.Length-10);	// We're choosing random spawn points from an array just for convenience here - you can handle this how you like, just keep in mind: Network.Instantiate creates the object on everyone's end
 		GameObject networkPlayer = Network.Instantiate(playerObject, spawnZones[randomSpawn].transform.position, Quaternion.identity, 0) as GameObject;
 		networkPlayer.GetComponent<NetworkView>().RPC("SetUsername", RPCMode.AllBuffered, advancedSettings.username);
 	}
